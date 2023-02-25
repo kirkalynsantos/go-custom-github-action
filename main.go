@@ -1,7 +1,11 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"os"
+	"strings"
+)
 
 func main() {
-	fmt.Println("Custom Github Action with Go.")
+	fmt.Println("RUNNING WITH ARG: ", strings.Join(os.Args[1:], " "))
 }

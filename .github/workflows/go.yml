@@ -28,5 +28,7 @@ jobs:
         
     - name: SLSA Build Provenance Action
       uses: philips-labs/slsa-provenance-action@v0.7.2
+      with:
+        artifact-path: ./
 
 

@@ -1,0 +1,8 @@
+name: "go-custom-github-action"
+description: "Custom Github Action with Go"
+
+runs:
+  using: composite
+  steps:
+  - run: go run main.go
+    shell: bash

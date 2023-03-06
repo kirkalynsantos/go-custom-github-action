@@ -22,7 +22,7 @@ jobs:
         go-version: 1.19
 
     - name: Custom Github Action
-      uses: kirkalynsantos/mock-diggity@v1.0.1
+      uses: kirkalynsantos/mock-diggity@v1.0.2
       with:
         output: json
 

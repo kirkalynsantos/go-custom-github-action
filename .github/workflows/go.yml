@@ -25,7 +25,8 @@ jobs:
       uses: kirkalynsantos/diggity-action@v1.0.1
       with:
         directory: .
-        output_type: github
+        output_type: json
         enabled_parsers: go
+        output_file: ga-test.json
 
 

@@ -25,6 +25,5 @@ jobs:
       uses: kirkalynsantos/diggity-action@v1.0.1
       with:
         directory: .
-        output_type: cyclonedx-json
 
 

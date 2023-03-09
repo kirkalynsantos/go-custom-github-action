@@ -24,6 +24,6 @@ jobs:
     - name: Custom Github Action
       uses: kirkalynsantos/diggity-action@v1.0.1
       with:
-        output: json
+        directory: .
 
 

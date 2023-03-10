@@ -28,12 +28,6 @@ jobs:
         output_type: json
         enabled_parsers: go
         output_file: sbom.json
-        
-    - name: Upload SBOM
-      uses: actions/upload-artifact@v3
-      with:
-        name: sbom.jsom
-        path: sbom.json
     
 
 

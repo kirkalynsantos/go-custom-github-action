@@ -27,7 +27,6 @@ jobs:
         directory: .
         output_type: json
         enabled_parsers: go
-        output_file: sbom.json
     
 
 

@@ -29,10 +29,11 @@ jobs:
         enabled_parsers: go
         output_file: sbom.json
         
-    - name: Download SBOM
-      uses: actions/download-artifact@v3
+    - name: Upload SBOM
+      uses: actions/upload-artifact@v3
       with:
         name: sbom.jsom
+        path: ./artifacts
     
 
 

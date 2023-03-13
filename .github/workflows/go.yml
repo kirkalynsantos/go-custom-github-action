@@ -24,10 +24,16 @@ jobs:
     - name: Diggity Github Action
       uses: carbonetes/diggity-action@v0.0.1
       with:
-#         directory: .
+        directory: .
 #         tar: test.tar
         output_type: json
+        output_file: sbom.json
         enabled_parsers: go,apk
+#         disable_file_listing: true
+#         disable_secret_search: true
+        secret_exclude_filenames: filename_1,filename_2
+        secret_max_file_size: 10485760
+        secrets_content_regex: content_regex
     
 
 

@@ -25,9 +25,9 @@ jobs:
       uses: kirkalynsantos/diggity-action@v1
       with:
         directory: .
-        output_type: spdx-json
+        output_type: json
         enabled_parsers: go
-        output_file: sbom.spdx.json
+        output_file: sbom.json
         disable_file_listing: true
         disable_secret_search: true
         secret_exclude_filenames: test1,test2

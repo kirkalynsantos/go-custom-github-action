@@ -27,10 +27,6 @@ jobs:
         directory: .
         output_type: json
         enabled_parsers: go
-        output_file: sbom.json
-        secret_exclude_filenames: filename_1,filename_2
-        secret_max_file_size: 123456789
-        secrets_content_regex: content_regex
     
 
 

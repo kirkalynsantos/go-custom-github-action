@@ -25,7 +25,7 @@ jobs:
       uses: carbonetes/diggity-action@v0.0.1
       with:
 #         directory: .
-        tar: test.tar
+#         tar: test.tar
         output_type: json
         enabled_parsers: go,apk
     

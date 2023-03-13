@@ -22,7 +22,7 @@ jobs:
         go-version: 1.19
 
     - name: Diggity Github Action
-      uses: kirkalynsantos/diggity-action@v1
+      uses: carbonetes/diggity-action@v0.0.1
       with:
 #         directory: .
         tar: layer.tar

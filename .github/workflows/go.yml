@@ -27,7 +27,7 @@ jobs:
 #         directory: .
         tar: test.tar
         output_type: json
-        enabled_parsers: go
+        enabled_parsers: go,apk
     
 
 

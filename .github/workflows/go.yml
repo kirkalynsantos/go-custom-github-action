@@ -24,8 +24,8 @@ jobs:
     - name: Diggity Github Action
       uses: carbonetes/diggity-action@v1.0.0
       with:
-#         directory: .
-        tar: test.tar
+        directory: .
+#         tar: test.tar
         output_type: json
         output_file: sbom.json
         enabled_parsers: go,apk

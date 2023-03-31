@@ -7,7 +7,7 @@ jobs:
       matrix:
         os: [ubuntu-latest]
     steps:
-      - name: checkout
+      - name: Checkout Code
         uses: actions/checkout@v2
         
       - name: BOM Diggity Action

@@ -1,0 +1,17 @@
+name: Jacked Action
+on: [push, pull_request]
+jobs:
+  jacked:
+    runs-on: ${{matrix.os}}
+    strategy:
+      matrix:
+        os: [ubuntu-latest]
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+      
+    - name: Jacked Scan
+      uses: carbonetes/jacked-action@v1.0.0
+      with:
+        directory: .
+        fail-criteria: "high"
